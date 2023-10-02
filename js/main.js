@@ -1,0 +1,5 @@
+
+
+guardarproductosLS(productos);
+renderproductos ();
+renderBotonCarrito ();
