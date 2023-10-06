@@ -44,7 +44,7 @@ const renderCarrito = () => {
           <td class="align-middle">$${producto.precio}</td>
           <td class="align-middle"><button class="btn  rounded-circle" onclick="decrementarCantidadProducto(${producto.id})">-</button> ${producto.cantidad} <button class="btn rounded-circle" onclick="incrementarCantidadProducto(${producto.id})">+</button></td>
           <td class="align-middle">$${producto.precio * producto.cantidad}</td>
-          <td class="align-middle text-end"><img src="img/trash3.svg" alt="Eliminar" width="24" onclick="eliminarProductoCarrito(${producto.id})"></td>
+          <td class="align-middle text-end"><img src="js/img/trash.svg" alt="Eliminar" width="24" onclick="eliminarProductoCarrito(${producto.id})"></td>
           </tr>`;
     });
 
